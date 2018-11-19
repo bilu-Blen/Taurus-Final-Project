@@ -117,7 +117,7 @@ public class Repos_url {
                 ",pulls_url=" + pulls_url +
                 ",forks=" + forks +
                 ",views=" + views +
-                "cloners='" + cloners + '\'' +
+                ",cloners='" + cloners + '\'' +
                 '}';
     }
 }
