@@ -29,11 +29,11 @@ public class TaurusFinalProjectApplication {
     public CommandLineRunner run(RestTemplate restTemplate) throws Exception {
         return args -> {
             User user = restTemplate.getForObject(
-                    "https://api.github.com/users/MelakMinlargilih", User.class);
+                    "https://api.github.com/users/Ermiji", User.class);
             log.info(user.toString());
 
             Repos_url repos_url = restTemplate.getForObject(
-                    "https://api.github.com/users/MelakMinlargilih", Repos_url.class);
+                    "https://api.github.com/users/Ermiji", Repos_url.class);
             log.info(repos_url.toString());
         };
     }
