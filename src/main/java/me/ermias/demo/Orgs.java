@@ -24,7 +24,6 @@ public class Orgs {
     public void setId(long id) {
         this.id = id;
     }
-
     public String getLogin() {
         return login;
     }
@@ -48,4 +47,7 @@ public class Orgs {
     public void setUsers(Set<User> users) {
         this.users = users;
     }
+   //try public newMethod(){
+
+    //}
 }
